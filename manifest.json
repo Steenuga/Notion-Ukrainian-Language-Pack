@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "Notion Ukrainian Language Pack",
+  "version": "6.6.6",
+  "default_locale": "en",
+  "description": "Unofficial Ukrainian language pack for Notion",
+  "icons": { 
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png" },
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://notion.so/*", "https://www.notion.so/*"]
+  }]
+}
